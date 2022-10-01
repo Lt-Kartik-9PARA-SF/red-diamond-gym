@@ -1,0 +1,97 @@
+body{
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: darkcyan;
+}
+#logo{
+    float:left;
+}
+
+div header{
+    font-size: x-large;
+    text-align: center;
+    font-weight: 500px;
+    font-size: 50px;
+    font-family: Orbitron;
+    height:auto;
+    width:100%;
+    min-height: 9rem;
+    background-color:black;
+    border-radius: 5px;
+    color:whitesmoke
+}
+
+
+.flex-container {
+    display: flex;
+    height: 50px;
+    align-content: center;
+    align-items: center;
+    background-color:rgb(92, 79, 79);
+    border-radius: 5px;
+}
+.flex-item a {
+margin:20px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 5px;
+font-family: Orbitron;
+width: auto;
+font-size:18px;
+color:antiquewhite;
+border: none;
+border-radius: 10px;
+}
+.flex-item a:hover{
+    font-size: x-large;
+    color:red;
+}
+.info{
+    color:wheat;
+    width:20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    align-content: center;
+    margin-top:30px;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+.flex-item a{
+    text-decoration: none;
+
+}
+form {
+    background-color: antiquewhite;
+    width:40% ;
+    padding: 20px;
+    height:180px;
+    border-radius: 10px;
+    margin-top:20px;
+}
+fieldset {
+    font-size: 16px;
+    height:150px;
+    border-radius: 10px;
+    padding: 10px;
+}
+fieldset label {
+ margin: 5px;
+}
+fieldset input{
+    margin:5px;
+}
+
+button{
+    background-color: hsl(244, 80%, 57%);
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: large;
+}
+footer{
+    margin-top:250px;
+    color: aliceblue;
+}
